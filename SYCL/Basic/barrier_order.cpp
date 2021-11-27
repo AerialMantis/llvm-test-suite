@@ -2,6 +2,7 @@
 // RUN: %HOST_RUN_PLACEHOLDER %t.out
 // RUN: %CPU_RUN_PLACEHOLDER %t.out
 // RUN: %GPU_RUN_PLACEHOLDER %t.out
+// XFAIL: hip_amd
 
 #include <CL/sycl.hpp>
 #include <stdlib.h>
